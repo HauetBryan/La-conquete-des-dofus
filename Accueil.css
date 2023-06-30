@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F8E1B7;
+    background-image: url(assets/images/Fond\ dofus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#test {
+    background-color: #d4af3754;
+}
+
+/* navbar */
+
+
+.NAVBAR {
+    display: flex;
+    flex-direction: row;
+    background-color: #171717;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+
+/* LOGO */
+
+
+.LOGO {
+    margin-left: 20px;
+}
+
+
+/* FIN LOGO */
+
+
+/* MENU DÉROULANT */
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+.dropbtn {
+    background-color: #2D2D2D;
+    color: #D4AF37;
+    padding: 12px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15%;
+    border-left: 2px solid #D4AF37;
+    border-right: 2px solid #D4AF37;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F8E1B7;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #2D2D2D;
+    color: #D4AF37;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* FIN MENU DÉROULANT */
+
+
+/* BARRE DE RECHERCHE */
+
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+.RECHERCHE {
+    margin-left: 20px;
+    border: 2px solid #D4AF37;
+}
+
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #D4AF37;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: red;
+}
+
+/* FIN BARRE DE RECHERCHE */
+
+
+/* PROFIL */
+
+
+.PROFIL ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #2D2D2D;
+    border-radius: 15%;
+    padding: 0;
+    margin-right: 10px;
+    border-right: #D4AF37 2px solid;
+    border-left: #D4AF37 2px solid;
+
+}
+
+.PROFIL ul li {
+    margin: 20px;
+    list-style: none;
+
+}
+
+.PROFIL ul li a {
+    font-size: 24px;
+    color: #D4AF37;
+    text-decoration: none;
+
+}
+
+.PROFIL ul li a:hover {
+    color: red;
+}
+
+/* FIN PROFIL */
+/* FIN NAVBAR */
+
+
+/* HEADER */
+header {
+        width: 100vw;
+    height: 100vh;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+
+
+}
+
+.SOCIALS {}
+
+
+/* TEST */
